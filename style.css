@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    margin:0;
+}
 .nav{
-    background-color: gray;
+    background-color: #4F4D53;
+    height: 48px;
 }
 #gtd{
     margin-left: 7rem;
@@ -15,10 +19,12 @@
     position: relative;
 }
 #herojpg{
-    width: 1380px;
+    width: 1520px;
 }
 .hello{
     text-align: center;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top:14rem;
     left:30rem;
@@ -30,15 +36,16 @@
     position: absolute;
     display: flex;
     justify-content: space-around;
-    top: 24rem;
-    left: 20rem;
+    top: 28rem;
+    left: 22rem;
 }
 #second {
     margin: 0 30px;
 }
 
 #how{
-    color: yellow;
+    color: #E8BE02;
+    margin-left: 10px;
 }
 .start{
     align-items: center;
@@ -53,8 +60,11 @@
     justify-content: center;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 2rem;
     width: 60rem;
     margin-left: 10rem;
+    font-size: 20px;
+    color: #4F4D53;
 
 }
 .line{
@@ -76,9 +86,36 @@ ul{
 
 h3{
     margin-bottom: 1rem;
-    color: yellow;
+    color: #E8BE02;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 li{
     color: #fff;
+}
+
+h4{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h2 {
+    color: #E8BE02;
+    font-weight: 900;
+}
+h1{
+    font-weight: 900;
+    color: #4F4D53;
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 400px) {
+    #herojpg{
+        width: 900px;
+    }
+    #gtd{
+        width: 1200px;
+    }
 }
